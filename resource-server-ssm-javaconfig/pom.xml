@@ -10,7 +10,7 @@
 
     <properties>
         <spring.version>4.3.25.RELEASE</spring.version>
-        <spring.security.oauth2.version>2.3.8.RELEASE</spring.security.oauth2.version>
+        <spring.security.oauth2.version>2.4.0.RELEASE</spring.security.oauth2.version>
         <javax.servlet-api.version>3.1.0</javax.servlet-api.version>
 
         <!-- Log Begin：使用slf4j门面，log4j2为实现 -->
