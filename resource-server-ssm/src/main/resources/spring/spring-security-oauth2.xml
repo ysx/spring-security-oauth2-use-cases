@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--<oauth2:resource-server id="oauth2ResourceServer" token-services-ref="remoteTokenServices"/>-->
+
+    <!--<bean id="remoteTokenServices" class="org.springframework.security.oauth2.provider.token.RemoteTokenServices">-->
+        <!--<property name="checkTokenEndpointUrl" value="http://localhost:9010/oauth/check_token"/>-->
+        <!--&lt;!&ndash; 对应认证中心的客户端信息 &ndash;&gt;-->
+        <!--<property name="clientId" value="client"/>-->
+        <!--<property name="clientSecret" value="123456"/>-->
+    <!--</bean>-->
+
+
+
+
+</beans>

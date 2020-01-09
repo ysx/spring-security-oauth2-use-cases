@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.2.xsd">
+
+    <!--<security:debug/>-->
+
+    <!--&lt;!&ndash; 忽略验证 &ndash;&gt;-->
+    <!--<security:http pattern="/test" security="none"/>-->
+
+    <!--<security:authentication-manager />-->
+
+    <!--<security:http>-->
+        <!--<security:intercept-url pattern="/**" />-->
+        <!--<security:form-login />-->
+        <!--<security:custom-filter ref="oauth2ResourceServer" after="LOGOUT_FILTER"/>-->
+    <!--</security:http>-->
+
+
+</beans>

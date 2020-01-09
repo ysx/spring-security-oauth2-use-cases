@@ -1,0 +1,19 @@
+server:
+  port: 9021
+  servlet:
+    context-path: /
+
+spring:
+  application:
+    name: resource-server
+
+# 统一认证中心的配置
+security:
+  oauth2:
+    resource:
+      user-info-uri: http://localhost:9010/user/current
+
+
+#logging:
+#  level:
+#    root: debug

@@ -1,0 +1,13 @@
+server:
+  port: 9010
+  servlet:
+    context-path: /
+
+spring:
+  application:
+    name: auth-server
+
+
+#logging:
+#  level:
+#    root: debug
